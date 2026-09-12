@@ -9,7 +9,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 00576224",
+    "name": "Tile 2x2 input into 6x6",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -25,7 +25,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 007bbfb7",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -44,7 +43,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Replace 8s with a color determined by the shape"
   },
   {
     "id": "00d62c1b",
@@ -56,7 +56,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 00d62c1b",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -75,7 +74,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each rectangle border of 2s contains an interior with"
   },
   {
     "id": "017c7c7b",
@@ -87,7 +87,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 017c7c7b",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -103,7 +102,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 025d127b",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -119,7 +117,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 03560426",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -132,7 +129,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background color (most common)",
+    "name": "Find background color",
     "rule_summary": "Find background color (most common)"
   },
   {
@@ -145,7 +142,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 045e512c",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -161,7 +157,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 05269061",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -180,7 +175,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each 4-shape projects a beam through the 8-line to"
   },
   {
     "id": "0607ce86",
@@ -195,7 +191,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Clean noisy tiled grid by finding tile boundaries and"
   },
   {
     "id": "0692e18c",
@@ -207,7 +204,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 0692e18c",
+    "name": "Each non-zero cell maps to a 3x3 block that",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -223,7 +220,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 070dd51e",
+    "name": "Find pairs of same-colored dots",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -241,7 +238,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Draw a rectangular spiral from the 1-pixel center using"
   },
   {
     "id": "0934a4d8",
@@ -281,7 +279,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each connected component of non-zero cells containing a"
   },
   {
     "id": "0a1d4ef5",
@@ -296,7 +295,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find solid-color rectangles in a noisy grid and return"
   },
   {
     "id": "0a2355a6",
@@ -311,7 +311,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Color each shape (connected 8s) based on number of"
   },
   {
     "id": "0ae0773b",
@@ -333,7 +334,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 0b148d64",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -379,7 +379,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 0becf7df",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -405,7 +404,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 0c786b71",
+    "name": "2x2 arrangement: top-left=rot180, top-right=flip_ud, bottom-left=flip_lr, bottom-right=identity",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -463,7 +462,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Seg 1: row 1, cols 1 to W-1 (right)",
+    "name": "Seg 1: row 1, cols 1 to W-1",
     "rule_summary": "Seg 1: row 1, cols 1 to W-1 (right)"
   },
   {
@@ -516,7 +515,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 1190e5a7",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -557,7 +555,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 12422b43",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -598,7 +595,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 12eac192",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -660,7 +656,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 137f0df0",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -725,7 +720,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each cluster of 4s defines part of a plus/cross"
   },
   {
     "id": "14870c6d",
@@ -777,7 +773,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 15696249",
+    "name": "(a 3x3 meta-grid of 3x3 tiles)",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -860,7 +856,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 17cae0c1",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -912,7 +907,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval 18286ef8",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -930,7 +924,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "8-bordered frames (cross-shaped with bumps) enclose a 2-pattern"
   },
   {
     "id": "184a9768",
@@ -1000,7 +995,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract four 3x3 clusters from the grid and arrange"
   },
   {
     "id": "19bb5feb",
@@ -1024,7 +1020,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Detect fill color from training data (appears in output but not input)",
+    "name": "Detect fill color from training data",
     "rule_summary": "Detect fill color from training data (appears in output but not input)"
   },
   {
@@ -1040,7 +1036,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "(an entire row or column where every cell is"
   },
   {
     "id": "1a6449f1",
@@ -1055,7 +1052,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract the interior of the largest rectangle border in"
   },
   {
     "id": "1acc24af",
@@ -1070,7 +1068,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The 1-structure defines rooms (enclosed 0-cell shapes inside the"
   },
   {
     "id": "1ae2feb7",
@@ -1112,7 +1111,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 1c0d0a4b",
+    "name": "Grid divided into sub-blocks by zero borders",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -1143,7 +1142,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 1c786137",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -1169,7 +1167,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 1cf80156",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -1237,7 +1234,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "\"right\" type: inner right col differs from frame, inner left col matches frame",
+    "name": "\"right\" type: inner right col differs from frame, inner",
     "rule_summary": "\"right\" type: inner right col differs from frame, inner left col matches frame"
   },
   {
@@ -1308,7 +1305,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "output a mask of damaged cells (8) vs intact"
   },
   {
     "id": "2072aba6",
@@ -1320,7 +1318,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 2072aba6",
+    "name": "Each 5-cell maps to 2x2 block [[1,2],[2,1]]",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -1388,7 +1386,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "ARC Task 212709ed Solver\n\nTwo cases:\n1",
     "rule_summary": "ARC Task 212709ed Solver\n\nTwo cases:\n1"
   },
   {
@@ -1404,7 +1401,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "From the 3x3 block of 8s, emit 4 diagonal"
   },
   {
     "id": "21897d95",
@@ -1447,7 +1445,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 22168020",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -1475,7 +1472,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find FULL stripe row (all non-bg, exactly 2 colors)",
+    "name": "Find FULL stripe row",
     "rule_summary": "Find FULL stripe row (all non-bg, exactly 2 colors)"
   },
   {
@@ -1488,7 +1485,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 22a4bbc2",
+    "name": "Group consecutive identical rows into blocks",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -1501,7 +1498,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Pattern = bounding box of \"rare\" colors (not bg, not shape_color)",
+    "name": "Pattern = bounding box of \"rare\" colors",
     "rule_summary": "Pattern = bounding box of \"rare\" colors (not bg, not shape_color)"
   },
   {
@@ -1514,7 +1511,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 22eb0ac0",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -1527,7 +1523,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background color (most common)",
+    "name": "Find background color",
     "rule_summary": "Find background color (most common)"
   },
   {
@@ -1609,7 +1605,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 253bf280",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -1628,7 +1623,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The grid is divided into cells by colored grid"
   },
   {
     "id": "256b0a75",
@@ -1643,7 +1639,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Transformation rule"
   },
   {
     "id": "25890907",
@@ -1665,7 +1662,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 25d487eb",
+    "name": "A triangle/diamond shape has a single marker pixel of",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -1691,7 +1688,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval 2601afb7",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -1706,7 +1702,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 2685904e",
+    "name": "Row 0 has N cells of value 8 (left-aligned)",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -1784,7 +1780,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 27a77e38",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -1809,7 +1804,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 27f8ce4f",
+    "name": "Find most common color",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -1828,7 +1823,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Input is 4x19: four 4x4 blocks separated by columns"
   },
   {
     "id": "28a6681f",
@@ -1905,7 +1901,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each shape made of 1s matches a non-1 colored"
   },
   {
     "id": "2b01abd0",
@@ -1967,7 +1964,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract a specific rectangular region from the input grid"
   },
   {
     "id": "2c181942",
@@ -1991,7 +1989,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background (most common color)",
+    "name": "Find background",
     "rule_summary": "Find background (most common color)"
   },
   {
@@ -2001,7 +1999,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background (most common color)",
+    "name": "Find background",
     "rule_summary": "Find background (most common color)"
   },
   {
@@ -2042,7 +2040,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Isolated pixels that fall inside a template's bounding box are part of that | te",
+    "name": "Isolated pixels that fall inside a template's bounding box",
     "rule_summary": "Isolated pixels that fall inside a template's bounding box are part of that | template (disconnected by a bg gap but sti"
   },
   {
@@ -2052,7 +2050,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Case 1: large shape exists (>= 10 cells) \u2192 hole-filling logic",
+    "name": "Case 1: large shape exists (>= 10 cells) \u2192",
     "rule_summary": "Case 1: large shape exists (>= 10 cells) \u2192 hole-filling logic"
   },
   {
@@ -2065,7 +2063,7 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 2dd70a9a",
+    "name": "The grid holds a two-cell 3 marker and a",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -2088,7 +2086,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Identify background (most common color)",
+    "name": "Identify background",
     "rule_summary": "Identify background (most common color)"
   },
   {
@@ -2113,7 +2111,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background (most frequent)",
+    "name": "Find background",
     "rule_summary": "Find background (most frequent)"
   },
   {
@@ -2135,7 +2133,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 310f3251",
+    "name": "For each non-zero cell at (r,c) in the N\u00d7N",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2154,7 +2152,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find the largest solid rectangular region closest to center"
   },
   {
     "id": "319f2597",
@@ -2169,7 +2168,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find 2x2 blocks of zeros"
   },
   {
     "id": "31adaf00",
@@ -2181,7 +2181,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 31adaf00",
+    "name": "The grid contains only 0s and 5s",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2197,7 +2197,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 31d5ba1a",
+    "name": "The input is a 6\u00d75 grid split into two",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2229,7 +2229,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 32597951",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -2245,7 +2244,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 32e9702f",
+    "name": "Replace all 0s with 5",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2261,7 +2260,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 332efdb3",
+    "name": "output[r][c] = 0 if (r%2==1 and c%2==1) else 1",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2277,7 +2276,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 332f06d7",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -2295,7 +2293,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Two non-background colors A and B each form shapes"
   },
   {
     "id": "33b52de3",
@@ -2355,7 +2354,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Connect aligned 2x2 blocks with 7s via greedy nearest-neighbor"
   },
   {
     "id": "34b99a2b",
@@ -2367,7 +2367,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 34b99a2b",
+    "name": "XOR left and right halves separated by column of",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2401,7 +2401,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract the 5x5 region with a unique zero count"
   },
   {
     "id": "35ab12c3",
@@ -2429,7 +2430,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 36a08778",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -2457,7 +2457,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each connected blob of color 8 has N enclosed"
   },
   {
     "id": "38007db0",
@@ -2469,7 +2470,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 38007db0",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -2494,7 +2494,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval 396d80d7",
+    "name": "There are two non-bg colors",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -2509,7 +2509,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 3979b1a8",
+    "name": "The input is a 5x5 symmetric grid with 3",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2527,7 +2527,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains two shapes (connected components of non-background"
   },
   {
     "id": "3a301edc",
@@ -2542,7 +2543,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The transformation expands the rectangle and fills the expanded"
   },
   {
     "id": "3b4c2228",
@@ -2557,7 +2559,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Count 2x2 blocks of value 3 in the input"
   },
   {
     "id": "3cd86f4f",
@@ -2569,7 +2572,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval 3cd86f4f",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -2587,7 +2589,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Overlay four layers (5, 4, 2, 8) with priority"
   },
   {
     "id": "3dc255db",
@@ -2599,7 +2602,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 3dc255db",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -2614,7 +2616,6 @@
     "dataset": "ARC-AGI-1 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 3de23699",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -2658,7 +2659,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Green (3) walls enclose template patterns"
   },
   {
     "id": "3ee1011a",
@@ -2673,7 +2675,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The transformation creates concentric rectangular frames in an NxN"
   },
   {
     "id": "3f23242b",
@@ -2688,7 +2691,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each cell with value 3, draw a cross"
   },
   {
     "id": "3f7978a0",
@@ -2700,7 +2704,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 3f7978a0",
+    "name": "Extract the rectangular frame defined by gray(5) bars, expanded",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -2736,7 +2740,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 4093f84a",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -2752,7 +2755,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 409aa875",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -2780,7 +2782,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Fill uniform rectangles with the concentric layer pattern from"
   },
   {
     "id": "412555fe",
@@ -2789,7 +2792,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Dihedral symmetry completion (transpose + row-mirror)",
+    "name": "Dihedral symmetry completion",
     "rule_summary": "Replace filler color to make grid symmetric under transpose (r,c)->(c,r) and row-mirror (r,c)->(H+1-r,c). Each cell orbit has up to 8 equivalent positions."
   },
   {
@@ -2805,7 +2808,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Place that pattern at the target position in output"
   },
   {
     "id": "42202aa7",
@@ -2814,7 +2818,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Solver for 42202aa7: D4-symmetric grid with a uniform rectangular overlay",
     "rule_summary": "Solver for 42202aa7: D4-symmetric grid with a uniform rectangular overlay"
   },
   {
@@ -2830,7 +2833,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Transformation rule: Horizontal shear"
   },
   {
     "id": "42918530",
@@ -2845,7 +2849,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each color that appears in multiple rectangular boxes"
   },
   {
     "id": "42992bc2",
@@ -2854,7 +2859,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Solver for 42992bc2: Grid with colored shapes and rectangular frame outlines",
     "rule_summary": "Solver for 42992bc2: Grid with colored shapes and rectangular frame outlines"
   },
   {
@@ -2867,7 +2871,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 42a15761",
+    "name": "Sort column blocks by number of 0s (holes), ascending",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -2880,7 +2884,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Solver for 42eb0429: Template shape is tiled from scatter cells in specific dire",
     "rule_summary": "Solver for 42eb0429: Template shape is tiled from scatter cells in specific directions"
   },
   {
@@ -2890,7 +2893,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Solver for 4341642d: Pipe/bracket shapes are recolored based on topology",
     "rule_summary": "Solver for 4341642d: Pipe/bracket shapes are recolored based on topology"
   },
   {
@@ -2906,7 +2908,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "If i is even: shift all pixels of that"
   },
   {
     "id": "4460642b",
@@ -2915,7 +2918,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Form clusters using Chebyshev distance <= 2 for min output size",
+    "name": "Form clusters using Chebyshev distance <= 2 for min",
     "rule_summary": "Form clusters using Chebyshev distance <= 2 for min output size"
   },
   {
@@ -2925,7 +2928,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background color (most common)",
+    "name": "Find background color",
     "rule_summary": "Find background color (most common)"
   },
   {
@@ -2938,7 +2941,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 446ef5d2",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -2953,7 +2955,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 447fd412",
+    "name": "There's a blue \"template\" shape with red markers attached",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -2991,7 +2993,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Self-similar fractal pattern: the block grid arrangement mirrors the"
   },
   {
     "id": "45737921",
@@ -3006,7 +3009,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Solve the puzzle by swapping two colors within each"
   },
   {
     "id": "45a5af55",
@@ -3018,7 +3022,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 45a5af55",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -3036,7 +3039,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each value at"
   },
   {
     "id": "46447928",
@@ -3064,7 +3068,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Detect background (most common) and dot (the single non-bg pixel)",
+    "name": "Detect background (most common) and dot",
     "rule_summary": "Detect background (most common) and dot (the single non-bg pixel)"
   },
   {
@@ -3079,7 +3083,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Colored markers indicate how to fill regions separated by"
   },
   {
     "id": "47996f11",
@@ -3093,7 +3098,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Restore a transpose-symmetric grid where cells marked 6 are"
   },
   {
     "id": "48131b3c",
@@ -3105,7 +3111,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 48131b3c",
+    "name": "Invert (swap 0 and non-zero color) then tile 2x2",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3124,7 +3130,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract the pattern formed by 8s and tile it"
   },
   {
     "id": "48b71d99",
@@ -3146,7 +3153,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 48f8583b",
+    "name": "Find the least frequent color in the 3x3 input",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3172,7 +3179,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 4 train pair(s)",
-    "name": "ARC Eval 4a1cacc2",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -3187,7 +3193,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 4a21e3da",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -3204,7 +3209,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Fill all 0s using repeating row patterns"
   },
   {
     "id": "4acc7107",
@@ -3219,7 +3225,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains exactly two non-background colors, each with exactly two"
   },
   {
     "id": "4b582f4e",
@@ -3244,7 +3251,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains shapes bordered by a single color forming closed/open"
   },
   {
     "id": "4c177718",
@@ -3259,7 +3267,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Input structure"
   },
   {
     "id": "4c3d4a41",
@@ -3271,7 +3280,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 4c3d4a41",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -3288,7 +3296,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "A multi-cell template shape straddles a 0-bordered rectangle"
   },
   {
     "id": "4c7dc4dd",
@@ -3314,7 +3323,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 4cd1b7b2",
+    "name": "Complete a 4x4 Latin square: fill 0s so each",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3332,7 +3341,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Best-fit shape placement via subset embedding"
   },
   {
     "id": "4e45f183",
@@ -3347,7 +3357,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The 19x19 grid contains a 3x3 arrangement of 5x5"
   },
   {
     "id": "4e469f39",
@@ -3362,7 +3373,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains shapes of color 5 forming almost-closed rectangles"
   },
   {
     "id": "4f2f1437",
@@ -3371,7 +3383,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Solver for ARC-AGI task 4f2f1437",
     "rule_summary": "Solver for ARC-AGI task 4f2f1437"
   },
   {
@@ -3387,7 +3398,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Paint the entire column(s) and row(s) containing that color"
   },
   {
     "id": "4f5864fc",
@@ -3412,7 +3424,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "is a self-similar tiled pattern with separator lines"
   },
   {
     "id": "503e0d53",
@@ -3421,7 +3434,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find main block (4-connected, largest component)",
+    "name": "Find main block",
     "rule_summary": "Find main block (4-connected, largest component)"
   },
   {
@@ -3437,7 +3450,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract the content between markers 1 and 8"
   },
   {
     "id": "506b6eba",
@@ -3459,7 +3473,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 506d28a5",
+    "name": "OR two halves split by a row of 4s",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3475,7 +3489,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 50a16a69",
+    "name": "Repeating tiled pattern with border color",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3494,7 +3508,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract all connected components of 6s and color them"
   },
   {
     "id": "50f325b5",
@@ -3509,7 +3524,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find the shape formed by 8s in the input"
   },
   {
     "id": "516b51b7",
@@ -3524,7 +3540,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each rectangular region filled with 1s, fill it"
   },
   {
     "id": "5207a7b5",
@@ -3548,7 +3565,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "ARC-AGI puzzle 52543573 solver",
     "rule_summary": "ARC-AGI puzzle 52543573 solver"
   },
   {
@@ -3582,7 +3598,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Transformation rule"
   },
   {
     "id": "52fd389e",
@@ -3597,7 +3614,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each connected region of 4s"
   },
   {
     "id": "53ba5488",
@@ -3606,7 +3624,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find largest connected component of fill cells (the block)",
+    "name": "Find largest connected component of fill cells",
     "rule_summary": "Find largest connected component of fill cells (the block)"
   },
   {
@@ -3658,7 +3676,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find all connected components (blocks) that contain both 3"
   },
   {
     "id": "55059096",
@@ -3673,7 +3692,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find plus-shaped patterns and connect all 45-degree diagonal pairs"
   },
   {
     "id": "551d5bf1",
@@ -3688,7 +3708,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extend 8s from that gap outward toward the grid"
   },
   {
     "id": "5545f144",
@@ -3702,7 +3723,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "has vertical separator columns dividing it into panels"
   },
   {
     "id": "55783887",
@@ -3725,7 +3747,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Each non-bg dot is replaced with bg and gets 4 diagonal neighbors: | UL(-1,-1), ",
+    "name": "Each non-bg dot is replaced with bg and gets",
     "rule_summary": "Each non-bg dot is replaced with bg and gets 4 diagonal neighbors: | UL(-1,-1), UR(-1,+1), DL(+1,-1) \u2192 color 2 | DR(+1,+"
   },
   {
@@ -3748,7 +3770,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval 5623160b",
+    "name": "Purple(9) cells act as anchors",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -3773,7 +3795,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 575b1a71",
+    "name": "Replace 0s on background of 5s: each column with",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3789,7 +3811,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 5783df64",
+    "name": "Divide grid into 3x3 blocks, extract the single non-zero",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3805,7 +3827,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 581f7754",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -3823,7 +3844,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Pattern1: small template using color 2 as background and"
   },
   {
     "id": "58490d8a",
@@ -3835,7 +3857,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 58490d8a",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -3853,7 +3874,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The metadata 2x2 defines the replacement values for each"
   },
   {
     "id": "58e15b12",
@@ -3868,7 +3890,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Two pairs of parallel vertical rails"
   },
   {
     "id": "58f5dbd5",
@@ -3880,7 +3903,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 58f5dbd5",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -3905,7 +3927,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 59341089",
+    "name": "Reverse each row, concat with original, tile 2x horizontally",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -3931,7 +3953,7 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 5961cc34",
+    "name": "Diamond shapes connected by directional lines from a yellow/green",
     "rule_summary": "Pattern: Diamond shapes connected by directional lines from a yellow/green marker. - Input has hexagonal diamond shapes (color 1/red) on background (color 8/blue) - Each diamond has green3 (color 3) arrow cells on one side indicating connection direction - A yellow (4) marker with green (2) line seg",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
@@ -3944,7 +3966,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background (most frequent color)",
+    "name": "Find background",
     "rule_summary": "Find background (most frequent color)"
   },
   {
@@ -3960,7 +3982,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "is divided by lines (separator color) into rectangular cells"
   },
   {
     "id": "5adee1b2",
@@ -3972,7 +3995,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval 5adee1b2",
+    "name": "Bottom-left corner contains legend pairs (2-row blocks at cols",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -3990,7 +4013,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "\"Key\" rows (multiple non-zero cells) hold one or more"
   },
   {
     "id": "5b37cb25",
@@ -4002,7 +4026,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval 5b37cb25",
+    "name": "The grid has a colored frame border (4 different",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -4035,7 +4059,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each shape has a line of 4s as symmetry"
   },
   {
     "id": "5b6cbef5",
@@ -4047,7 +4072,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 5b6cbef5",
+    "name": "Fractal self-similar tiling: 4x4 \u2192 16x16",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4070,7 +4095,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "No fg: check if grid is 1:2 ratio -> return bg, else 8",
+    "name": "No fg: check if grid is 1:2 ratio ->",
     "rule_summary": "No fg: check if grid is 1:2 ratio -> return bg, else 8"
   },
   {
@@ -4096,7 +4121,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The input grid is divided into left and right"
   },
   {
     "id": "5dbc8537",
@@ -4110,7 +4136,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "grid has two regions separated along one axis"
   },
   {
     "id": "5ee6136f",
@@ -4129,7 +4156,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find separator rows (all same value)",
+    "name": "Find separator rows",
     "rule_summary": "Find separator rows (all same value)"
   },
   {
@@ -4139,7 +4166,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Line color: all instances in the same column on an edge",
+    "name": "Line color: all instances in the same column on",
     "rule_summary": "Line color: all instances in the same column on an edge"
   },
   {
@@ -4149,7 +4176,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "ARC-AGI Task 5f8f6c7a Solver\n\nRule: Each marker (non-background cell) creates tw",
     "rule_summary": "ARC-AGI Task 5f8f6c7a Solver\n\nRule: Each marker (non-background cell) creates two staircase beams colored 6:\n  - DOWN st"
   },
   {
@@ -4165,7 +4191,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each connected component (4-connected, same color) is treated as"
   },
   {
     "id": "604001fa",
@@ -4179,7 +4206,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Input has pairs of (L-tromino made of 7s, shape"
   },
   {
     "id": "60a26a3e",
@@ -4194,7 +4222,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "(r-1, c), (r+1, c), (r, c-1)"
   },
   {
     "id": "60c09cac",
@@ -4206,7 +4235,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 60c09cac",
+    "name": "Scale each cell to a 2x2 block",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4229,7 +4258,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "61dd76ce solver: Grid-cell transformation\n- Grid lines = rows/cols of all-same-c",
     "rule_summary": "61dd76ce solver: Grid-cell transformation\n- Grid lines = rows/cols of all-same-color (grid_color, either 5 or 9)\n- Each "
   },
   {
@@ -4244,7 +4272,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Shape projection to top/bottom edge by centroid"
   },
   {
     "id": "626c0bcc",
@@ -4256,7 +4285,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 626c0bcc",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4272,7 +4300,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 62ab2642",
+    "name": "The 5-cells form a connected boundary",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4288,7 +4316,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 62b74c02",
+    "name": "Left pattern + fill with border color + duplicate",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4301,7 +4329,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "For each non-bg pixel, find horizontal and vertical run lengths",
+    "name": "For each non-bg pixel, find horizontal and vertical run",
     "rule_summary": "For each non-bg pixel, find horizontal and vertical run lengths"
   },
   {
@@ -4317,7 +4345,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Transform grid by dividing rectangular regions of 8s into"
   },
   {
     "id": "63dc4724",
@@ -4342,7 +4371,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each cell with value 1, fill the adjacent"
   },
   {
     "id": "642d658d",
@@ -4366,7 +4396,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Detect background (most common color)",
+    "name": "Detect background",
     "rule_summary": "Detect background (most common color)"
   },
   {
@@ -4382,7 +4412,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Shift 8s right based on row-band bounding box width"
   },
   {
     "id": "64efde09",
@@ -4396,7 +4427,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains several 2-wide \"bars\" (vertical or horizontal) and isolated"
   },
   {
     "id": "65b59efc",
@@ -4408,7 +4440,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 65b59efc",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -4423,7 +4454,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 66e6c45b",
+    "name": "Move center 2x2 values to the four corners of",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4442,7 +4473,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Split the 4x14 grid into left (cols 0-6) and"
   },
   {
     "id": "67411b3f",
@@ -4467,7 +4499,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Multiple same-sized shapes (each a unique non-zero color) are"
   },
   {
     "id": "67672093",
@@ -4489,7 +4522,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 6773b310",
+    "name": "Cyan(8) grid lines divide 11x11 into 3x3 cells",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -4507,7 +4540,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Recover the 4x4 region masked by 3s using 180\u00b0"
   },
   {
     "id": "67c52801",
@@ -4519,7 +4553,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 67c52801",
+    "name": "sitting at (gap_row - 1) and (gap_row)",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4537,7 +4571,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "A template rectangle (bordered by a non-background color) contains"
   },
   {
     "id": "68b67ca3",
@@ -4549,7 +4584,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 68b67ca3",
+    "name": "Scale down by factor 2: each 2x2 block maps",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4578,7 +4613,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Two 3x3 boxes (border of 2s, center 5, one"
   },
   {
     "id": "695367ec",
@@ -4590,7 +4626,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 695367ec",
+    "name": "The input is a uniform NxN grid of a",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4609,7 +4645,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each shape is a path-like polyomino with two endpoints"
   },
   {
     "id": "69889d6e",
@@ -4621,7 +4658,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 69889d6e",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4650,7 +4686,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The input is a 15x5 grid composed of 3"
   },
   {
     "id": "6a1e5592",
@@ -4662,7 +4699,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 6a1e5592",
+    "name": "Each gray shape in the bottom half matches a",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -4678,7 +4715,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 6aa20dc0",
+    "name": "There's a small template pattern with 3 non-bg colors",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -4694,7 +4731,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 6ad5bdfd",
+    "name": "A wall of 2s spans one full row or",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4717,7 +4754,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find right edge (all B along row r1)",
+    "name": "Find right edge",
     "rule_summary": "Find right edge (all B along row r1)"
   },
   {
@@ -4730,7 +4767,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 6df30ad6",
+    "name": "A shape made of 5s exists in the grid",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4746,7 +4783,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 6e453dd6",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -4763,7 +4799,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "has border strips"
   },
   {
     "id": "6ea4a07e",
@@ -4775,7 +4812,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 6ea4a07e",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4794,7 +4830,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Double the width based on first element of first"
   },
   {
     "id": "6f6407db",
@@ -4803,7 +4840,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find wall color (2nd most common or the one forming full rows/cols) | Wall cols:",
+    "name": "Find wall color (2nd most common or the one",
     "rule_summary": "Find wall color (2nd most common or the one forming full rows/cols) | Wall cols: columns that are entirely wall_color (n"
   },
   {
@@ -4828,7 +4865,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains a multi-layered pattern and isolated \"hint\" pixels"
   },
   {
     "id": "7039b2d7",
@@ -4840,7 +4878,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 7039b2d7",
+    "name": "Condensed grid: find separator lines, output (row_bands x col_bands)",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4859,7 +4897,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each non-zero pixel draws an L-shape toward its nearest"
   },
   {
     "id": "70b84e29",
@@ -4884,7 +4923,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each 2 in the bottom row emits a vertical"
   },
   {
     "id": "713275ad",
@@ -4926,7 +4966,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 71e489b6",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -4951,7 +4990,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 72207abc",
+    "name": "Colors placed at positions with increasing gaps in the",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -4967,7 +5006,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 72322fa7",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -4986,7 +5024,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "One row is a \"key row\""
   },
   {
     "id": "73182012",
@@ -4998,7 +5037,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 73182012",
+    "name": "Find bounding box of non-zero cells, extract top-left quadrant",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5014,7 +5053,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 73c3b0d8",
+    "name": "4s drop 1 row downward",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5033,7 +5072,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "grid contains several clusters of non-zero cells separated by"
   },
   {
     "id": "74542ac5",
@@ -5074,7 +5114,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A cross of 3s divides the grid"
   },
   {
     "id": "76207610",
@@ -5099,7 +5140,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A 2x2 seed [[a,b],[c,d]] expands in a staircase fractal"
   },
   {
     "id": "7666fa5d",
@@ -5135,7 +5177,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 770cc55f",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5148,7 +5189,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background color (most frequent)",
+    "name": "Find background color",
     "rule_summary": "Find background color (most frequent)"
   },
   {
@@ -5161,7 +5202,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 782b5218",
+    "name": "The grid has 0s, 2s, and one other color",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5179,7 +5220,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "grid is divided into panels by rows/columns of 6"
   },
   {
     "id": "788629e6",
@@ -5188,7 +5230,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Solver for ARC-AGI puzzle 788629e6\n\nRule: Input is a TABLE structure (grid lines",
     "rule_summary": "Solver for ARC-AGI puzzle 788629e6\n\nRule: Input is a TABLE structure (grid lines of one color, bg filling cells)"
   },
   {
@@ -5204,7 +5245,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Search the grid for locations where the 6-pattern matches"
   },
   {
     "id": "7953d61e",
@@ -5216,7 +5258,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 7953d61e",
+    "name": "Tile input in 2x2: TL=id, TR=rot90CCW, BL=rot180, BR=rot270CCW",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5229,7 +5271,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find the background color (most common)",
+    "name": "Find the background color",
     "rule_summary": "Find the background color (most common)"
   },
   {
@@ -5253,7 +5295,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find horizontal run: c_start .. c_end (inclusive)",
+    "name": "Find horizontal run: c_start .. c_end",
     "rule_summary": "Find horizontal run: c_start .. c_end (inclusive)"
   },
   {
@@ -5266,7 +5308,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 7b0280bc",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -5283,7 +5324,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains 4 colored shapes on a 20x20 grid"
   },
   {
     "id": "7b5033c1",
@@ -5295,7 +5337,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 7b5033c1",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -5339,7 +5380,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains multiple rectangular regions of non-zero cells"
   },
   {
     "id": "7c2667a9",
@@ -5348,7 +5390,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Find background (most frequent color)",
+    "name": "Find background",
     "rule_summary": "Find background (most frequent color)"
   },
   {
@@ -5358,7 +5400,7 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Compute max_ring for each marker using collinear-pair restrictions. | When two m",
+    "name": "Compute max_ring for each marker using collinear-pair restrictions. |",
     "rule_summary": "Compute max_ring for each marker using collinear-pair restrictions. | When two markers share a column, the one with the "
   },
   {
@@ -5373,7 +5415,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "The grid has a background color, small \"stamp\" shapes"
   },
   {
     "id": "7c8af763",
@@ -5385,7 +5428,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 7c8af763",
+    "name": "markers)",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5397,8 +5440,7 @@
     "arc_url": "https://arcprize.org/play?task=7c93243b",
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
-    "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "Task 7c93243b"
+    "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point"
   },
   {
     "id": "7c9b52a0",
@@ -5413,7 +5455,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Multiple same-sized rectangular patches"
   },
   {
     "id": "7cab7c5f",
@@ -5432,7 +5475,6 @@
     "dataset": "unknown (no task data available)",
     "status": "unverified_claim",
     "verification": "UNVERIFIABLE: task id exists in no official ARC-AGI-1/2 dataset and no task data was found anywhere on disk or upstream; the solver also does not expose the solve(grid) entry point",
-    "name": "7d141125: Extract the unique patch from a grid with broken 4-fold rotational sym",
     "rule_summary": "7d141125: Extract the unique patch from a grid with broken 4-fold rotational symmetry"
   },
   {
@@ -5463,7 +5505,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains nested hollow rectangles"
   },
   {
     "id": "7d419a02",
@@ -5493,7 +5536,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Color swap puzzle: Mark certain 0-cells with color 3"
   },
   {
     "id": "7e4d4f7c",
@@ -5505,7 +5549,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 4 train pair(s)",
-    "name": "ARC Eval 7e4d4f7c",
+    "name": "The grid has a pattern row (row 0), a",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -5522,7 +5566,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Each colored shape is 8-connected to a group of"
   },
   {
     "id": "7ee1c6ea",
@@ -5534,7 +5579,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 7ee1c6ea",
+    "name": "Everything outside the rectangle is unchanged",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5560,7 +5605,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 800d221b",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -5575,7 +5619,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 80a900e0",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -5590,7 +5633,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 817e6c09",
+    "name": "The input contains 2\u00d72 blocks of color 2 on",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5609,7 +5652,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "is divided into cells by separator lines of a"
   },
   {
     "id": "833dafe3",
@@ -5621,7 +5665,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 833dafe3",
+    "name": "Tile input 2x2: TL=rot180, TR=flipud, BL=fliplr, BR=identity",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5640,7 +5684,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "An L-shaped border of 5s encloses a legend in"
   },
   {
     "id": "846bdb03",
@@ -5652,7 +5697,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 846bdb03",
+    "name": "A yellow-cornered frame defines output size with colored bars",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -5668,7 +5713,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 84db8fc4",
+    "name": "Flood fill: boundary-reachable 0s become 2, interior 0s become",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5684,7 +5729,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 84f2aca1",
+    "name": "Find colored rectangles, fill interior: area=1 -> 5, area>=2",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5703,7 +5748,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Count occurrences of colors 2 and 4 in top"
   },
   {
     "id": "85b81ff1",
@@ -5715,7 +5761,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 85b81ff1",
+    "name": "Sort column-pairs by descending notch count in a repeating",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5734,7 +5780,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each 2x2 block of 2s has 4 corner markers"
   },
   {
     "id": "8698868d",
@@ -5748,7 +5795,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "grid contains"
   },
   {
     "id": "8719f442",
@@ -5760,7 +5808,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 8719f442",
+    "name": "Input is a 3x3 grid of 0s and 5s",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5776,7 +5824,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 8731374e",
+    "name": "Find the large rectangular region filled mostly with one",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -5795,7 +5843,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each shape group has a vertical line of 2s"
   },
   {
     "id": "88bcf3b4",
@@ -5825,7 +5874,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Template compass slide of yellow markers"
   },
   {
     "id": "891232d6",
@@ -5840,7 +5890,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each 6 sends a path upward"
   },
   {
     "id": "89565ca0",
@@ -5854,7 +5905,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains several colored rectangles (table-like grids with"
   },
   {
     "id": "896d5239",
@@ -5869,7 +5921,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains 3s forming V-shaped triangles"
   },
   {
     "id": "898e7135",
@@ -5900,7 +5953,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Grid of identical rectangular cells separated by blue"
   },
   {
     "id": "8abad3cf",
@@ -5912,7 +5966,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval 8abad3cf",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -5927,7 +5980,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 8b28cd80",
+    "name": "The 3x3 input has exactly one non-zero cell at",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -5993,7 +6046,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each filled rectangle (uniform color + one interior dot"
   },
   {
     "id": "8dae5dfc",
@@ -6020,7 +6074,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 8e2edd66",
+    "name": "3x3 \u2192 9x9 tiled grid",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6036,7 +6090,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 8e5c0c38",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -6054,7 +6107,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A small sprite repeats along a diagonal staircase"
   },
   {
     "id": "8f215267",
@@ -6068,7 +6122,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Grid has a background color and several rectangular box"
   },
   {
     "id": "8f3a5a89",
@@ -6080,7 +6135,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle 8f3a5a89",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -6095,7 +6149,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 8fbca751",
+    "name": "Group 8s by shared rows/columns",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6111,7 +6165,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 90347967",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6129,7 +6182,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "has D2 symmetry"
   },
   {
     "id": "9110e3c5",
@@ -6159,7 +6213,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A grid contains a rectangular border (color A) and"
   },
   {
     "id": "929ab4e9",
@@ -6173,7 +6228,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "has D4 symmetry (full square symmetry: 4 rotations +"
   },
   {
     "id": "92e50de0",
@@ -6188,7 +6244,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Grid is divided into blocks by colored separator lines"
   },
   {
     "id": "9356391f",
@@ -6203,7 +6260,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Row 0 contains a color legend"
   },
   {
     "id": "9385bd28",
@@ -6217,7 +6275,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Pairs of L-shaped triominoes define rectangles"
   },
   {
     "id": "93b4f4b3",
@@ -6232,7 +6291,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "has a template (left) with a border color and"
   },
   {
     "id": "93c31fbe",
@@ -6247,7 +6307,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Rectangular frames made of 4 L-shaped corners (non-0, non-1"
   },
   {
     "id": "94133066",
@@ -6274,7 +6335,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 94414823",
+    "name": "Fill the 4x4 interior in 2x2 quadrants: each marker's",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6293,7 +6354,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A color key"
   },
   {
     "id": "95a58926",
@@ -6308,7 +6370,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Grid of 5s with a marker color"
   },
   {
     "id": "963f59bc",
@@ -6323,7 +6386,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains a blue (1) shape and one or more"
   },
   {
     "id": "96a8c0cd",
@@ -6338,7 +6402,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Trace a path from the 2-source, detouring around 1/3"
   },
   {
     "id": "97239e3d",
@@ -6353,7 +6418,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "17x17 grid with 4x4 arrangement of 3x3 boxes (8-rings"
   },
   {
     "id": "9772c176",
@@ -6368,7 +6434,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each input has octagonal shapes made of 8s"
   },
   {
     "id": "97d7923e",
@@ -6399,7 +6466,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "The output grid is a symmetric matrix with row"
   },
   {
     "id": "992798f6",
@@ -6414,7 +6482,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Two dots (1 and 2) on a black grid"
   },
   {
     "id": "99306f82",
@@ -6429,7 +6498,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Diagonal pixels at (0,0)"
   },
   {
     "id": "9a4bb226",
@@ -6441,7 +6511,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 9a4bb226",
+    "name": "Find the 3x3 block with the most distinct colors",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6459,7 +6529,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains plus-shaped patterns arranged in a 4-column layout"
   },
   {
     "id": "9b2a60aa",
@@ -6474,7 +6545,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A template shape + a line of colored dots"
   },
   {
     "id": "9b365c51",
@@ -6504,7 +6576,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Grid is divided into regions"
   },
   {
     "id": "9bbf930d",
@@ -6518,7 +6591,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Boundary opening detection and wall sealing"
   },
   {
     "id": "9bebae7a",
@@ -6533,7 +6607,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Mirror the 4-shape across an axis at its boundary"
   },
   {
     "id": "9c1e755f",
@@ -6545,7 +6620,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 9c1e755f",
+    "name": "Lines of 5s act as rulers",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6561,7 +6636,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 9c56f360",
+    "name": "Each row's contiguous block of 3s slides left until",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6592,7 +6667,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 9ddd00f0",
+    "name": "Grid is NxN where N = K\u00b2+K-1",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6611,7 +6686,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A rectangle of 2s has colored dots scattered outside"
   },
   {
     "id": "9f236235",
@@ -6623,7 +6699,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 9f236235",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -6639,7 +6714,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval 9f27f097",
+    "name": "Find colored pattern and 0-filled rectangle",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6658,7 +6733,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Green (3) rectangles contain red (2) markers"
   },
   {
     "id": "a096bf4d",
@@ -6685,7 +6761,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle a251c730",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -6702,7 +6777,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "There are colored shapes on a background"
   },
   {
     "id": "a32d8b75",
@@ -6716,7 +6792,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Key-stamp tiling across separator gaps"
   },
   {
     "id": "a395ee82",
@@ -6728,7 +6805,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle a395ee82",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -6746,7 +6822,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Fill the interior of a rectangle (made of 5s)"
   },
   {
     "id": "a406ac07",
@@ -6758,7 +6835,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval a406ac07",
+    "name": "The right column and bottom row encode color labels",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6776,7 +6853,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "The puzzle features a maze of 8/5/9 cells connecting"
   },
   {
     "id": "a57f2f04",
@@ -6803,7 +6881,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval a59b95c0",
+    "name": "Tile the 3x3 input NxN times where N =",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6822,7 +6900,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "has 4x4 \"frame\" objects (colored border, 0 interior) and"
   },
   {
     "id": "a6953f00",
@@ -6834,7 +6913,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval a6953f00",
+    "name": "Extract a 2\u00d72 subgrid from the top two rows",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -6851,7 +6930,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains several rectangular outlines on a uniform background"
   },
   {
     "id": "a8610ef7",
@@ -6863,7 +6943,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval a8610ef7",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6882,7 +6961,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Remove connected regions (components) that contain 2 or more"
   },
   {
     "id": "aa18de87",
@@ -6894,7 +6974,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval aa18de87",
+    "name": "Fill interior of V/triangle shapes (between colored arms) with",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6910,7 +6990,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval aa300dc3",
+    "name": "A 5-bordered grid contains a cave of 0-cells",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -6929,7 +7009,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Each input has shapes (connected components of 1s on"
   },
   {
     "id": "aab50785",
@@ -6956,8 +7037,8 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Diagonal Symmetry Fill",
-    "rule_summary": "Fill symmetric diagonal pattern across axis of symmetry. Each colored cell is reflected diagonally, and gaps in the reflected region are filled with the cell's color.",
+    "name": "Stamp-shape transfer via 8-groups and color chains",
+    "rule_summary": "Transfer source-stamp shapes into target frames by matching 8-connected 8-groups and 2-color chains, then stamping the mapped colors at computed offsets.",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -6975,7 +7056,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "has groups of three 4s forming L-shapes (3 corners"
   },
   {
     "id": "ac2e8ecf",
@@ -6990,7 +7072,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each shape is either a \"rectangle\" (closed border with"
   },
   {
     "id": "ac3e2b04",
@@ -7005,7 +7088,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Cross pattern rule"
   },
   {
     "id": "ac605cbb",
@@ -7017,7 +7101,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ac605cbb",
+    "name": "Each colored dot spawns an arm whose length and",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7033,7 +7117,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ad7e01d0",
+    "name": "The input is an NxN grid containing the value",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7049,7 +7133,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ae58858e",
+    "name": "Recolor connected components of color 2 with size >=",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7068,7 +7152,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find the rectangular region where"
   },
   {
     "id": "af22c60d",
@@ -7082,7 +7167,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "Fill zero-valued holes using transpose and row/column mirror symmetries"
   },
   {
     "id": "af24b4cc",
@@ -7094,7 +7180,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval af24b4cc",
+    "name": "Grid divided by 0-separators into sub-blocks",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7110,7 +7196,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval af726779",
+    "name": "There's a single row of orange(7) cells on a",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -7144,7 +7230,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each row-group has three 2x2 blocks"
   },
   {
     "id": "b0f4d537",
@@ -7159,7 +7246,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The input is divided by 5s into a colored"
   },
   {
     "id": "b10624e5",
@@ -7185,7 +7273,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval b15fca0b",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7204,7 +7291,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The output is a fixed 5x5 frame: four 2x2"
   },
   {
     "id": "b20f7c8b",
@@ -7219,7 +7307,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Grid has a \"key panel\" (bg=8) with colored shapes"
   },
   {
     "id": "b2bc3ffd",
@@ -7231,7 +7320,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval b2bc3ffd",
+    "name": "Each colored object (non-7, non-8) sitting above the floor",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -7264,7 +7353,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Input is split by a row of 5s into"
   },
   {
     "id": "b5ca7ac4",
@@ -7276,7 +7366,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle b5ca7ac4",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -7293,7 +7382,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains nested Pi-shaped (\u03a0) rectangles"
   },
   {
     "id": "b7999b51",
@@ -7308,7 +7398,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each non-zero color forms a shape"
   },
   {
     "id": "b7cb93ac",
@@ -7323,7 +7414,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains 3+ colored shapes"
   },
   {
     "id": "b7f8a4d8",
@@ -7338,7 +7430,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Grid of tiled cells with borders and interiors"
   },
   {
     "id": "b7fb29bc",
@@ -7353,7 +7446,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A green (3) rectangle has one extra green pixel"
   },
   {
     "id": "b942fd60",
@@ -7368,7 +7462,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The single red (2) cell sends horizontal lines that"
   },
   {
     "id": "b9630600",
@@ -7383,7 +7478,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Connect rectangles via minimum spanning tree of gap distances"
   },
   {
     "id": "b99e7126",
@@ -7397,7 +7493,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "has a repeating tile pattern with border lines"
   },
   {
     "id": "b9e38dc0",
@@ -7411,7 +7508,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "has a background, a border shape (one color), and"
   },
   {
     "id": "ba9d41b8",
@@ -7438,7 +7536,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval bae5c565",
+    "name": "Row 0 contains a color pattern with background(5) at",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -7456,7 +7554,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extend rectangle to include markers"
   },
   {
     "id": "bb52a14b",
@@ -7486,7 +7585,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "is 4x9 split by a column of 5s into"
   },
   {
     "id": "bc4146bd",
@@ -7498,7 +7598,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval bc4146bd",
+    "name": "Tile 5 times horizontally, alternating original and reversed rows",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7532,7 +7632,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Shapes of color 1 that are 'stretched' versions of"
   },
   {
     "id": "bd283c4a",
@@ -7544,7 +7645,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval bd283c4a",
+    "name": "Count color frequencies, sort descending, fill output column-by-column bottom-to-top",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -7559,7 +7660,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval be03b35f",
+    "name": "The 5\u00d75 input grid is divided into four 2\u00d72",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7590,7 +7691,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle bf45cf4b",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -7605,7 +7705,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval bf699163",
+    "name": "Extract the 3x3 block enclosed by the scattered (non-block)",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7624,7 +7724,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Connect all 2s using a Steiner tree with either"
   },
   {
     "id": "c074846d",
@@ -7636,7 +7737,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval c074846d",
+    "name": "Find 5 and adjacent 2s",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7652,7 +7753,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval c1990cce",
+    "name": "1\u00d7N \u2192 N\u00d7N",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7668,7 +7769,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval c3202e5a",
+    "name": "Grid divided by separator lines",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7699,7 +7800,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval c48954c1",
+    "name": "3x3 input \u2192 9x9 output",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7715,7 +7816,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle c4d067a0",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -7733,7 +7833,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Rectangles tile/repeat toward 1-markers using modular pattern repetition"
   },
   {
     "id": "c64f1187",
@@ -7748,7 +7849,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Top section has color markers with 2x2 shape templates"
   },
   {
     "id": "c658a4bd",
@@ -7763,7 +7865,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains several colored hollow rectangles scattered"
   },
   {
     "id": "c663677b",
@@ -7777,7 +7880,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "is a 27x27 grid with a repeating tile pattern"
   },
   {
     "id": "c6e1b8da",
@@ -7792,7 +7896,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains colored rectangular blocks"
   },
   {
     "id": "c7d4e6ad",
@@ -7804,7 +7909,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval c7d4e6ad",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7822,7 +7926,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "contains multiple objects sharing the same arm structure (color"
   },
   {
     "id": "c87289bb",
@@ -7837,7 +7942,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extend pillar walls downward, relocating consumed pillars outside 2-bar"
   },
   {
     "id": "c8b7cc0f",
@@ -7864,7 +7970,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval c92b942c",
+    "name": "The output grid is 3\u00d7 the input in each",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7883,7 +7989,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each continuous line of 2s (horizontal or vertical)"
   },
   {
     "id": "ca8de6ea",
@@ -7895,7 +8002,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ca8de6ea",
+    "name": "The 5\u00d75 input has non-zero values on its two",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7913,7 +8020,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "contains a repeating 2D tile pattern with rectangular regions"
   },
   {
     "id": "cad67732",
@@ -7928,7 +8036,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "NxN grid contains a periodic diagonal band (main or"
   },
   {
     "id": "cb227835",
@@ -7957,7 +8066,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "A single 3-marker and multiple line segments (1s and"
   },
   {
     "id": "cbebaa4b",
@@ -7971,7 +8081,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Shapes (connected components of non-zero cells) are scattered across"
   },
   {
     "id": "ccd554ac",
@@ -7983,7 +8094,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ccd554ac",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -7999,7 +8109,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval cd3c21df",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8015,7 +8124,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ce039d91",
+    "name": "For each cell with value 5, check the horizontally",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8034,7 +8143,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "has divider rows (all non-zero) and divider columns (all"
   },
   {
     "id": "cf133acc",
@@ -8061,7 +8171,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval cfb2ce5a",
+    "name": "A solid rectangular pattern block (2 colors) sits in",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8080,7 +8190,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Remove separator columns between objects and vertically shift each"
   },
   {
     "id": "d0f5fe59",
@@ -8092,7 +8203,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (training), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval d0f5fe59",
     "datasets": [
       "ARC-AGI-1 (training)",
       "ARC-AGI-2 (training)"
@@ -8111,7 +8221,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Extract and merge two 6x4 regions of a 12x4"
   },
   {
     "id": "d282b262",
@@ -8126,7 +8237,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains rectangular checkerboard blocks"
   },
   {
     "id": "d2acf2cb",
@@ -8138,7 +8250,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval d2acf2cb",
+    "name": "Find pairs of 4s in same row/column",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8157,7 +8269,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Horizontal tiling repeats: 7, 7, 6, 7, 7, 6"
   },
   {
     "id": "d35bdbdc",
@@ -8188,7 +8301,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Fill the interior of a 2-colored rectangle with 2s"
   },
   {
     "id": "d47aa2ff",
@@ -8203,7 +8317,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "is a 10x21 grid split into left/right 10x10 halves"
   },
   {
     "id": "d492a647",
@@ -8218,7 +8333,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Replace all 0s that have the same row and"
   },
   {
     "id": "d4b1c2b1",
@@ -8230,7 +8346,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval d4b1c2b1",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8264,7 +8379,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "grid contains multiple colored shapes"
   },
   {
     "id": "d59b0160",
@@ -8276,7 +8392,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle d59b0160",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -8306,7 +8421,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle d8e07eb2",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -8324,7 +8438,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Input: binary grid"
   },
   {
     "id": "d94c3b52",
@@ -8339,7 +8454,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Tiles matching the 8-tile pattern become 8"
   },
   {
     "id": "d968ffd4",
@@ -8351,7 +8467,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval d968ffd4",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -8366,7 +8481,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval da2b0fe3",
+    "name": "The input contains a shape made of two symmetric",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8385,7 +8500,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Input: Grid with a cross/plus of 8s"
   },
   {
     "id": "db0c5428",
@@ -8448,7 +8564,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The 11x11 grid is divided into 9 3x3 blocks"
   },
   {
     "id": "dc2e9a9d",
@@ -8463,7 +8580,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each shape is a rectangular frame (color 3) with"
   },
   {
     "id": "dd2401ed",
@@ -8475,7 +8593,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval dd2401ed",
+    "name": "its mirror column (2*W - c) in the zone",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8510,7 +8628,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Recover the values hidden under the 7-rectangle using the"
   },
   {
     "id": "de809cff",
@@ -8522,7 +8641,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle de809cff",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -8540,7 +8658,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each rectangle border is drawn with one color"
   },
   {
     "id": "df9fd884",
@@ -8552,7 +8671,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval df9fd884",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -8567,7 +8685,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle dfadab01",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -8582,7 +8699,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e0fb7511",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8600,7 +8716,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "Border gap rays with convergence redirect"
   },
   {
     "id": "e133d23d",
@@ -8612,7 +8729,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e133d23d",
+    "name": "The input is a 3x7 grid split by a",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8628,7 +8745,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e1baa8a4",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8647,7 +8763,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Move scattered 1s to be adjacent to their nearest"
   },
   {
     "id": "e2092e0c",
@@ -8662,7 +8779,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "locate its duplicate elsewhere in the grid, and draw"
   },
   {
     "id": "e21a174a",
@@ -8692,7 +8810,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Output 4x4 grid where each cell is 4 if"
   },
   {
     "id": "e3721c99",
@@ -8704,7 +8823,7 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle e3721c99",
+    "name": "Topological hole counting with template color mapping",
     "rule_summary": "Pattern: Topological hole counting with template color mapping. The grid has a template region (top rows) with colored rectangles showing different numbers of interior holes (0, 1, 2, 3, ...). Below a separator line, white (color 5) shapes are scattered. Each white connected component's topological ",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
@@ -8720,7 +8839,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle e376de54",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -8738,7 +8856,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Draw a rectangle with colored edges and a cross"
   },
   {
     "id": "e41c6fd3",
@@ -8765,7 +8884,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e57337a4",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8781,7 +8899,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e5790162",
+    "name": "Starting from the cell colored 3 (always in column",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8800,7 +8918,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A rectangular spiral emanates from a center cell (value"
   },
   {
     "id": "e619ca6e",
@@ -8815,7 +8934,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each rectangular block of 3s spawns an expanding V-pattern"
   },
   {
     "id": "e633a9e5",
@@ -8827,7 +8947,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e633a9e5",
+    "name": "3x3 \u2192 5x5 non-uniform scaling",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8860,7 +8980,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Replace scattered 1s with the majority color of their"
   },
   {
     "id": "e69241bd",
@@ -8872,7 +8993,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e69241bd",
+    "name": "BFS flood fill from each non-0, non-5 seed through",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8888,7 +9009,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e6de6e8f",
+    "name": "The 2-row input encodes a domino tumbling path",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8907,7 +9028,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Reverse the row order within each contiguous single-color row"
   },
   {
     "id": "e760a62e",
@@ -8937,7 +9059,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Draw a rectangle border using 1s connecting these corner"
   },
   {
     "id": "e78887d1",
@@ -8952,7 +9075,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains R row-groups and N color-columns of 3x3 patterns"
   },
   {
     "id": "e7a25a18",
@@ -8967,7 +9091,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find the 2-bordered rectangle with a 2x2 quadrant color"
   },
   {
     "id": "e7b06bea",
@@ -8979,7 +9104,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e7b06bea",
+    "name": "Collapse stripe columns into a single column, cycling colors",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -8995,7 +9120,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e7dd8335",
+    "name": "Find the 1-shape, split at vertical midpoint, change bottom",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9039,7 +9164,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval e872b94a",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9058,7 +9182,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find the largest all-zero rectangle and fill its interior"
   },
   {
     "id": "e95e3d8e",
@@ -9072,7 +9197,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-1 (evaluation)"
-    ]
+    ],
+    "name": "is a periodic tiling with rectangular holes filled with"
   },
   {
     "id": "e99362f0",
@@ -9087,7 +9213,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Pattern Analysis"
   },
   {
     "id": "e9ac8c9e",
@@ -9102,7 +9229,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each 5-block rectangle has 4 colored corner markers diagonally"
   },
   {
     "id": "e9b4f6fc",
@@ -9117,7 +9245,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains one large rectangular region (the main pattern) and"
   },
   {
     "id": "e9bb6954",
@@ -9132,7 +9261,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each 3x3 monochrome block emits a cross (full row"
   },
   {
     "id": "e9c9d9a1",
@@ -9162,7 +9292,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Restore a periodic tiling pattern where rectangular holes were"
   },
   {
     "id": "ea9794b1",
@@ -9177,7 +9308,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The 10x10 input is four 5x5 quadrants (TL=4, TR=3"
   },
   {
     "id": "ecaa0ec1",
@@ -9192,7 +9324,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Most 4s in TL or TR quadrant -> rotate"
   },
   {
     "id": "ecb67b6d",
@@ -9204,7 +9337,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval ecb67b6d",
+    "name": "Find 8-connected components of gray(5) cells",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -9222,7 +9355,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The 5\u00d79 input contains two 3\u00d73 shapes made of"
   },
   {
     "id": "ed98d772",
@@ -9234,7 +9368,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ed98d772",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9250,7 +9383,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle edb79dae",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -9281,7 +9413,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval ef26cbf6",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9300,7 +9431,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each non-zero entry (i,j) in the NxN input defines"
   },
   {
     "id": "f0df5ff0",
@@ -9312,7 +9444,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval f0df5ff0",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9331,7 +9462,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "contains several colored rectangular borders"
   },
   {
     "id": "f3b10344",
@@ -9346,7 +9478,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Find pairs of same-colored rectangular blocks"
   },
   {
     "id": "f3cdc58f",
@@ -9358,7 +9491,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval f3cdc58f",
+    "name": "Count occurrences of colors 1-4 in the input grid",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9374,7 +9507,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval f3e62deb",
+    "name": "A 3x3 hollow square sits on a 10x10 grid",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9404,7 +9537,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval f45f5ca7",
+    "name": "Each non-zero value in column 0 is moved to",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9422,7 +9555,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "The grid holds exactly four separate shapes"
   },
   {
     "id": "f5aa3634",
@@ -9434,7 +9568,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval f5aa3634",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9468,7 +9601,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "has a repeating tile pattern corrupted by noise (color"
   },
   {
     "id": "f83cb3f6",
@@ -9483,7 +9617,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A line of 8s (horizontal or vertical, possibly with"
   },
   {
     "id": "f8be4b64",
@@ -9498,7 +9633,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Each cross (center surrounded by 3s) extends lines in"
   },
   {
     "id": "f8f52ecc",
@@ -9510,7 +9646,7 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 3 train pair(s)",
-    "name": "ARC Eval f8f52ecc",
+    "name": "For each non-background (1) non-barrier (8) color with 2+",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -9525,7 +9661,6 @@
     "dataset": "ARC-AGI-2 (evaluation)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
-    "name": "Puzzle f931b4a8",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
     ]
@@ -9543,7 +9678,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A single '2' cell sends lines through gaps in"
   },
   {
     "id": "f9d67f8b",
@@ -9558,7 +9694,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The output grid has three verified symmetries"
   },
   {
     "id": "faa9f03d",
@@ -9587,7 +9724,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The puzzle works as follows"
   },
   {
     "id": "fb791726",
@@ -9602,7 +9740,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "Transform algorithm"
   },
   {
     "id": "fc754716",
@@ -9614,7 +9753,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: exact-matches the official held-out test pair(s) in 2 different dataset splits (ARC-AGI-1 (evaluation), ARC-AGI-2 (training)), whose train/test pairs differ",
-    "name": "ARC Eval fc754716",
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
@@ -9632,7 +9770,8 @@
     "verification": "PASS: solver output exact-matches official held-out test pair(s)",
     "datasets": [
       "ARC-AGI-2 (evaluation)"
-    ]
+    ],
+    "name": "grid has a frame with 4 border edges (2"
   },
   {
     "id": "fd096ab6",
@@ -9647,7 +9786,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "One color acts as a \"template\" shape (the one"
   },
   {
     "id": "fd4b2b02",
@@ -9674,7 +9814,6 @@
     "dataset": "ARC-AGI-2 (training)",
     "status": "verified_solved",
     "verification": "PASS: solver output exact-matches official held-out test pair(s); also reproduces all 2 train pair(s)",
-    "name": "ARC Eval fe45cba4",
     "datasets": [
       "ARC-AGI-2 (training)"
     ]
@@ -9692,7 +9831,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "A plus/cross of 2s sits in the grid"
   },
   {
     "id": "fea12743",
@@ -9707,7 +9847,8 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "The 16\u00d711 grid contains a 3\u00d72 arrangement of 4\u00d74"
   },
   {
     "id": "ff72ca3e",
@@ -9722,6 +9863,7 @@
     "datasets": [
       "ARC-AGI-1 (evaluation)",
       "ARC-AGI-2 (training)"
-    ]
+    ],
+    "name": "For each color-4, find the nearest color-5"
   }
 ]
