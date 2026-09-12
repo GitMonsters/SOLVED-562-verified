@@ -181,59 +181,26 @@ def solve_abc82100(grid):
     
     return output
 
-# Load and test
-with open('/Users/evanpieser/ARC_AMD_TRANSFER/data/ARC-AGI-2/data/evaluation/abc82100.json') as f:
-    task = json.load(f)
+# Self-check harness — only runs when executed directly, uses a repo-relative path.
+if __name__ == "__main__":
+    import os
 
-# Test on all training examples
-all_correct = True
-for ti, ex in enumerate(task['train']):
-    inp = ex['input']
-    expected = ex['output']
-    predicted = solve_abc82100(inp)
-    
-    rows, cols = len(expected), len(expected[0])
-    wrong = 0
-    diffs = []
-    for r in range(rows):
-        for c in range(cols):
-            if predicted[r][c] != expected[r][c]:
-                wrong += 1
-                diffs.append((r, c, predicted[r][c], expected[r][c]))
-    
-    total = rows * cols
-    pct = (total - wrong) / total * 100
-    status = "✓" if wrong == 0 else "✗"
-    print(f"Train {ti}: {total-wrong}/{total} ({pct:.1f}%) {status}")
-    if wrong > 0:
-        all_correct = False
-        for r, c, p, e in diffs[:20]:
-            print(f"  ({r},{c}): predicted {p}, expected {e}")
+    here = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(here, "..", "..", "dataset", "tasks", "abc82100.json")) as f:
+        task = json.load(f)
 
-# Test on test case
-test_inp = task['test'][0]['input']
-test_expected = task['test'][0]['output']
-test_pred = solve_abc82100(test_inp)
+    def _check(kind, pairs):
+        for i, ex in enumerate(pairs):
+            pred = solve_abc82100(ex["input"])
+            total = len(ex["output"]) * len(ex["output"][0])
+            wrong = 0
+            for r in range(len(ex["output"])):
+                for c in range(len(ex["output"][r])):
+                    if pred[r][c] != ex["output"][r][c]:
+                        wrong += 1
+            print(f"{kind} {i}: {total - wrong}/{total} {'PASS' if wrong == 0 else 'FAIL'}")
 
-rows, cols = len(test_expected), len(test_expected[0])
-wrong = 0
-diffs = []
-for r in range(rows):
-    for c in range(cols):
-        if test_pred[r][c] != test_expected[r][c]:
-            wrong += 1
-            diffs.append((r, c, test_pred[r][c], test_expected[r][c]))
-
-total = rows * cols
-pct = (total - wrong) / total * 100
-status = "✓" if wrong == 0 else "✗"
-print(f"\nTest: {total-wrong}/{total} ({pct:.1f}%) {status}")
-if wrong > 0:
-    all_correct = False
-    for r, c, p, e in diffs[:30]:
-        print(f"  ({r},{c}): predicted {p}, expected {e}")
-
-if all_correct:
-    print("\n🎉 ALL EXAMPLES CORRECT!")
+    _check("Train", task["train"])
+    _check("Test", task["test"])
 
 solve = solve_abc82100
