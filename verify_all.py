@@ -6,6 +6,8 @@ import json
 import os
 import sys
 import traceback
+import contextlib
+import io
 
 def load_task(task_id: str) -> dict | None:
     path = f"dataset/tasks/{task_id}.json"
@@ -18,7 +20,8 @@ def load_solver(task_id: str):
     path = f"solves/{task_id}/solver.py"
     spec = importlib.util.spec_from_file_location("solver", path)
     mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
+    with contextlib.redirect_stdout(io.StringIO()):
+        spec.loader.exec_module(mod)
     return mod
 
 def verify_task(task_id: str) -> tuple[bool, str]:
